@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/altany/react-starter/issues"
   },
-  "homepage": "https://github.com/altany/react-starter#readme"
+  "homepage": "https://github.com/altany/react-starter#readme",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0"
+  }
 }
