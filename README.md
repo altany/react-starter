@@ -1,9 +1,16 @@
 # React Starter Project
+---
+Building my own react starter from scratch. Inspired by [minimal react starter](https://github.com/ahfarmer/minimal-react-starter) project.
 
-Building my own react starter from scratch
+Setup
+---
+`npm install`
 
-### Setup
-npm install
+Usage
+---
+1. `node server.js` or `npm start`
+2. Open [http://localhost:3000/](http://localhost:3000/).
 
-### Compile
-npm run compile
+Compile
+---
+`npm run compile`
