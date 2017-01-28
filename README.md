@@ -2,7 +2,7 @@
 
 # React Starter Project
 ---
-Building my own react starter from scratch. Inspired by [minimal react starter](https://github.com/ahfarmer/minimal-react-starter) project.
+Building my own react starter from scratch with Webpack, ES6, Babel, react-router and sass-loader.
 
 Setup
 ---
