@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Counter from './Counter';
- 
-document.addEventListener('DOMContentLoaded', function() {
-  ReactDOM.render(
-    React.createElement(Counter),
-    document.getElementById('mount')
-  );
-});console.log('Hello World!');
+
+import Router from './router';
+
+ReactDOM.render(
+  Router,
+  document.getElementById('root')
+);
+console.log('Hello World!');
