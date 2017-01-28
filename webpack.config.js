@@ -1,13 +1,13 @@
 var path = require('path');
-
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var config = {
   context: path.join(__dirname, 'src'),
   entry: [
-    './main.js',
+    './js/main.js',
   ],
   output: {
     path: path.join(__dirname, 'www'),
-    filename: 'bundle.js',
+    filename: 'bundle.js'
   },
   devtool: 'source-map',
   module: {
@@ -15,18 +15,27 @@ var config = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loaders: ['babel'],
+        loaders: ['babel']
       },
+      {
+        test: /\.sass$/,
+        loader: ExtractTextPlugin.extract('css!sass')
+      }
     ],
   },
+  plugins: [
+    new ExtractTextPlugin(path.join(__dirname, 'www', 'style.css'), {
+      allChunks: true
+    })
+  ],
   resolveLoader: {
     root: [
-      path.join(__dirname, 'node_modules'),
+      path.join(__dirname, 'node_modules')
     ],
   },
   resolve: {
     root: [
-      path.join(__dirname, 'node_modules'),
+      path.join(__dirname, 'node_modules')
     ],
   },
 };
