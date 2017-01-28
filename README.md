@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/altany/react-starter.svg?branch=master)](https://travis-ci.org/altany/react-starter)
+
 # React Starter Project
 ---
 Building my own react starter from scratch. Inspired by [minimal react starter](https://github.com/ahfarmer/minimal-react-starter) project.
