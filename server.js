@@ -38,7 +38,8 @@ app.use(function(err, req, res, next) {
 });
 
 /** Start server */
-var server = app.listen(3000, function() {
+app.set('port', (process.env.PORT || 3000));
+var server = app.listen(app.get('port'), function() {
   var host = server.address().address;
   var port = server.address().port;
   console.log('Example app listening at http://%s:%s', host, port);
