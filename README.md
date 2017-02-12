@@ -1,3 +1,4 @@
+[![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/altany/react-starter)
 [![Build Status](https://travis-ci.org/altany/react-starter.svg?branch=master)](https://travis-ci.org/altany/react-starter)
 
 # React Starter Project
