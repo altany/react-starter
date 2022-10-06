@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Build my own react starter from scratch",
   "main": "index.js",
+  "engines": {
+    "node": "7.x"
+  }
   "scripts": {
     "test": "mocha",
     "compile": "webpack",
